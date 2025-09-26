@@ -209,7 +209,7 @@ function toggleDayNightCycle() {
 function checkDayNightCycle() {
   // To solve problem-1: Check if we've reached a new 300-point milestone
   // Hint: You need to call toggleDayNightCycle() function with appropriate condition
-  if(score%10==0){
+  if(score%300==0){
     toggleDayNightCycle()
   }
 }
